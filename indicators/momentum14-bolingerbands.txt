@@ -1,0 +1,29 @@
+true==function()
+{
+
+var SMA=function(period){
+var sma=[ih][0].PClosing;
+var n=0 ;
+for(n=1;n<period;n++)
+sma=[ih][n].PClosing+ sma;
+sma= sma/period;
+return sma;
+}
+var Sigma=function(period){
+var sma=SMA(period);
+sigma=0;
+var n=0 ;
+for(n=0;n<period;n++)
+sigma=(sma-[ih][n].PClosing)*(sma-[ih][n].PClosing)+sigma;
+sigma= sigma/period;
+sigma=Math.sqrt(sigma);
+//tafavot bands 
+return 4*sigma;
+}
+         //momentum14
+         (cfield0)=Math.round( (pc)-[ih][14].PClosing )
+         (cfield1)=Math.round( Sigma(20));
+         if(1==1)
+         return true;       
+
+}()

@@ -1,0 +1,22 @@
+true==function()
+{
+var PriceN=function(){
+var price=[ih][0].PClosing ;
+var D=59 ;
+var N=D-1 ;
+var n ;
+for(n=1;n<=N;n++)
+price=[ih][n].PClosing + price ;
+
+price = price /D ;
+
+return price ;
+}
+//ave
+         (cfield0)=Math.round( PriceN() )
+         //momentum
+         (cfield1)=Math.round( (pc)-[ih][14].PClosing )
+         if(1==1)
+         return true;       
+
+}()

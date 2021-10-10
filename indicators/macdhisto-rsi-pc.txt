@@ -1,0 +1,153 @@
+true==function()
+{
+
+
+
+var MACD=function( end){
+k12=2/13;
+k26=2/27
+k_signal=2/10
+sum=0
+count=1
+ema12=0
+ema26=0
+signal=0
+itre_arrye_count=0
+sum_macd=0
+for(n=59;n>=0 ;n--)
+{
+sum=sum+[ih][n].PClosing;
+if(count>=12)
+{
+
+if(count==12){ema12=sum/12;}
+if(count>12)
+{
+ema12=([ih][n].PClosing-ema12)*k12+ema12
+}
+}
+
+if(count>=26)
+{
+
+    if(count==26){ema26=sum/26;macd=ema12-ema26;sum_macd=sum_macd+macd;}
+if(count>26)
+{
+
+
+
+
+ema26=([ih][n].PClosing-ema26)*k26+ema26
+macd=ema12-ema26;
+sum_macd=sum_macd+macd;
+
+if(count>=34)
+{
+//signal
+
+  if(count==34){signal=sum_macd/9 }
+if(count>34)
+{
+signal=(macd-signal)*k_signal+signal
+}
+
+
+
+}
+
+
+
+}
+
+}
+
+
+count=count+1
+
+
+}
+
+return (macd-signal);
+}
+
+
+var PriceN=function(){
+var price=[ih][0].PClosing ;
+var D=20 ;
+var N=D-1 ;
+var n ;
+for(n=1;n<=N;n++)
+price=[ih][n].PClosing + price ;
+
+price = price /D ;
+
+return price ;
+}
+
+   var CalculateRSI =function(period){
+
+      var len=20;
+
+      for (var i = 0; i < len ; i++) {
+         var rec=[ih][len-1-i];
+
+         var change=rec.PClosing-rec.PriceYesterday;         
+
+         if (change> 0) {
+        rec.gain=change;
+                rec.loss=0;
+         }
+         else
+         {
+        rec.gain=0;
+                rec.loss=-change;
+         }
+      }
+
+      // Calculate first "average gain" and "average loss"
+      var gainSum=0;
+      var lossSum=0;
+
+      for (var i = 0; i < period; i++) {
+         var rec=[ih][len-1-i];
+     gainSum += rec.gain;
+     lossSum += rec.loss;
+      }
+
+      var averageGain=gainSum /period;
+      var averageLoss=lossSum / period;
+
+      // Calculate subsequent "average gain" and "average loss" values
+      for (var i = period + 1; i < len; i++) {
+         var rec=[ih][len-1-i];
+
+         averageGain=(averageGain* (period - 1) + rec.gain) / period;
+         averageLoss=(averageLoss* (period - 1) + rec. loss)/  period;
+
+         rec.averageGain=averageGain;
+         rec.averageLoss=averageLoss;
+      }
+
+      // Calculate RSI
+      var RS = 0; // Relative strength
+      var RSIndex = 0; // Relative strength index
+        
+      for (var i = period + 1; i < len; i++) {
+         var rec=[ih][len-1-i];
+
+         RS = rec.averageGain/ rec.averageLoss;
+     RSIndex = 100 - 100 / (1 + RS);
+     rec.rsi=RSIndex;
+      }
+   };
+
+      if(typeof [ih][0].rsi=="undefined")  
+        CalculateRSI(14);
+
+         (cfield1)=Math.round( [ih][0].rsi );
+(cfield2)=(pc)
+         (cfield0)=Math.round(MACD(0))
+         if(1==1)
+         return true;       
+
+}()
