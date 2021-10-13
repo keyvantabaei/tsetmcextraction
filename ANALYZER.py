@@ -242,7 +242,7 @@ class ANALYZER:
         for str in list1:
             result_list.append(str.replace("tb_", ""))
         for id in result_list:
-            print(self.convert_id_to_name(id))
+            print(self.convert_id_to_name(id),'             ',id)
     def convert_id_to_name(self, id):
         result_name = 0
         for nn in self.namad_ids_dic:

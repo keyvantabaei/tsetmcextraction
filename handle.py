@@ -151,51 +151,51 @@ def plot():
     analyzer = ANALYZER.ANALYZER()
     namad_manager = NAMADMANAGER.NAMADMANAGER()
     #
-    data = analyzer.get_time_and_value('tsetmc', 'نسبت صف خرید/فروش به ارزش بازار')
-    analyzer.plot(data,['نسبت ارزش صف خرید بورس به ارزش بورس', 'نسبت ارزش صف فروش بورس به ارزش بورس', 'نسبت ارزش صف خرید فرابورس به ارزش فرابورس', 'نسبت ارزش صف فروش فرابورس به ارزش فرابورس',
-     'نسبت ارزش صف خرید بازار به ارزش بازار', 'نسبت ارزش صف فروش بازار به ارزش بازار'],'نسبت صف خرید/فروش به ارزش بازار', u'زمان', u'درصد')
+    # data = analyzer.get_time_and_value('tsetmc', 'نسبت صف خرید/فروش به ارزش بازار')
+    # analyzer.plot(data,['نسبت ارزش صف خرید بورس به ارزش بورس', 'نسبت ارزش صف فروش بورس به ارزش بورس', 'نسبت ارزش صف خرید فرابورس به ارزش فرابورس', 'نسبت ارزش صف فروش فرابورس به ارزش فرابورس',
+    #  'نسبت ارزش صف خرید بازار به ارزش بازار', 'نسبت ارزش صف فروش بازار به ارزش بازار'],'نسبت صف خرید/فروش به ارزش بازار', u'زمان', u'درصد')
 
 
-    data = analyzer.get_time_and_value('tsetmc', 'میانگین ارزش خرید/ فروش حقوقی بازار')
-    analyzer.plot(data,['میانگین ارزش خرید بورس', 'میانگین ارزش فروش بورس', 'میانگین ارزش خرید فرابورس', 'میانگین ارزش فروش فرابورس',
-     'میانگین ارزش خرید بازار', 'میانگین ارزش فروش بازار'],'میانگین ارزش خرید/ فروش حقوقی بازار', u'زمان', u'میانگین ارزش(میلیارد تومان)')
+    # data = analyzer.get_time_and_value('tsetmc', 'میانگین ارزش خرید/ فروش حقوقی بازار')
+    # analyzer.plot(data,['میانگین ارزش خرید بورس', 'میانگین ارزش فروش بورس', 'میانگین ارزش خرید فرابورس', 'میانگین ارزش فروش فرابورس',
+    #  'میانگین ارزش خرید بازار', 'میانگین ارزش فروش بازار'],'میانگین ارزش خرید/ فروش حقوقی بازار', u'زمان', u'میانگین ارزش(میلیارد تومان)')
     # #
     # #
-    data = analyzer.get_time_and_value('tsetmc', 'میانگین ارزش خرید/ فروش حقیقی بازار')
-    analyzer.plot(data,['میانگین ارزش خرید بورس', 'میانگین ارزش فروش بورس', 'میانگین ارزش خرید فرابورس', 'میانگین ارزش فروش فرابورس',
-     'میانگین ارزش خرید بازار', 'میانگین ارزش فروش بازار'], 'میانگین ارزش خرید/ فروش حقیقی بازار', u'زمان', u'میانگین ارزش(میلیون تومان)')
+    # data = analyzer.get_time_and_value('tsetmc', 'میانگین ارزش خرید/ فروش حقیقی بازار')
+    # analyzer.plot(data,['میانگین ارزش خرید بورس', 'میانگین ارزش فروش بورس', 'میانگین ارزش خرید فرابورس', 'میانگین ارزش فروش فرابورس',
+    #  'میانگین ارزش خرید بازار', 'میانگین ارزش فروش بازار'], 'میانگین ارزش خرید/ فروش حقیقی بازار', u'زمان', u'میانگین ارزش(میلیون تومان)')
     # #
-    data = analyzer.get_time_and_value('tsetmc', 'میانگین حجم معامله شده به ازای هر کد بورسی')
-    analyzer.plot(data, ['بورس','فرابورس', 'بازار'], 'میانگین حجم معامله شده به ازای هر کد بورسی', u'زمان', u'میانگین حجم معامله شده به ازای هر کد بورسی(هزار)')
+    # data = analyzer.get_time_and_value('tsetmc', 'میانگین حجم معامله شده به ازای هر کد بورسی')
+    # analyzer.plot(data, ['بورس','فرابورس', 'بازار'], 'میانگین حجم معامله شده به ازای هر کد بورسی', u'زمان', u'میانگین حجم معامله شده به ازای هر کد بورسی(هزار)')
     # #
 
-    data=analyzer.get_time_and_value('tsetmc','اختلاف صف خرید بورس و فرابورس')
-    analyzer.plot(data,['بورس','فرابورس','بازار'],'اختلاف صف خرید بورس و فرابورس',u'زمان',u'ارزش (میلیارد تومان)')
+    # data=analyzer.get_time_and_value('tsetmc','اختلاف صف خرید بورس و فرابورس')
+    # analyzer.plot(data,['بورس','فرابورس','بازار'],'اختلاف صف خرید بورس و فرابورس',u'زمان',u'ارزش (میلیارد تومان)')
 
     data=analyzer.get_time_and_value('tsetmc','ارزش بازار بورس و فرابورس')
     analyzer.plot(data,['بورس','فرابورس','بازار'],'ارزش بازار بورس و فرابورس',u'زمان',u'ارزش (میلیارد تومان)')
 
 
-    data=analyzer.get_time_and_value('tsetmc','تعداد سهام پایانی مثبت بازار بورس و فرابورس')
-    analyzer.plot(data,['بورس','فرابورس','بازار'],'تعداد سهام پایانی مثبت بازار بورس و فرابورس',u'زمان',u'تعداد')
+    # data=analyzer.get_time_and_value('tsetmc','تعداد سهام پایانی مثبت بازار بورس و فرابورس')
+    # analyzer.plot(data,['بورس','فرابورس','بازار'],'تعداد سهام پایانی مثبت بازار بورس و فرابورس',u'زمان',u'تعداد')
 
     # data=analyzer.get_time_and_value('tsetmc','18093681647131179')
     # analyzer.plot(data,['حقوقی','حقیقی'],'دتولید',u'زمان',u'(میلیون تومان)اختلاف سرانه')
-    data=analyzer.get_time_and_value('tsetmc','69090868458637360')
-    analyzer.plot(data,['حقوقی','حقیقی'],'دیران',u'زمان',u'(میلیون تومان)اختلاف سرانه')
-    data=analyzer.get_time_and_value('tsetmc','24085906177899789')
-    analyzer.plot(data,['حقوقی','حقیقی'],'کترام',u'زمان',u'(میلیون تومان)اختلاف سرانه')
-    data=analyzer.get_time_and_value('tsetmc',namad_manager.convert_namad_to_id('وتعاون'))
-    analyzer.plot(data,['حقوقی','حقیقی'],'وتعاون',u'زمان',u'(میلیون تومان)اختلاف سرانه')
-    data=analyzer.get_time_and_value('tsetmc','66450490505950110')
-    analyzer.plot(data,['حقوقی','حقیقی'],'ددام',u'زمان',u'(میلیون تومان)اختلاف سرانه')
+    # data=analyzer.get_time_and_value('tsetmc','69090868458637360')
+    # analyzer.plot(data,['حقوقی','حقیقی'],'دیران',u'زمان',u'(میلیون تومان)اختلاف سرانه')
+    # data=analyzer.get_time_and_value('tsetmc','24085906177899789')
+    # analyzer.plot(data,['حقوقی','حقیقی'],'کترام',u'زمان',u'(میلیون تومان)اختلاف سرانه')
+    # data=analyzer.get_time_and_value('tsetmc',namad_manager.convert_namad_to_id('وتعاون'))
+    # analyzer.plot(data,['حقوقی','حقیقی'],'وتعاون',u'زمان',u'(میلیون تومان)اختلاف سرانه')
+    data=analyzer.get_time_and_value('tsetmc','58931793851445922')
+    analyzer.plot(data,['حقوقی','حقیقی'],'ومعادن',u'زمان',u'(میلیون تومان)اختلاف سرانه')
     # #
 
-    data=analyzer.get_time_and_value('tsetmc','مواد و محصولات دارويي')
-    analyzer.plot(data,['حقوقی','حقیقی'],'مواد و محصولات دارويي',u'زمان',u'خروج نقدینگی(میلیون تومان)')
-
-    data=analyzer.get_time_and_value('tsetmc','كاشي و سراميك')
-    analyzer.plot(data,['حقوقی','حقیقی'],'كاشي و سراميك',u'زمان',u'خروج نقدینگی(میلیون تومان)')
+    # data=analyzer.get_time_and_value('tsetmc','مواد و محصولات دارويي')
+    # analyzer.plot(data,['حقوقی','حقیقی'],'مواد و محصولات دارويي',u'زمان',u'خروج نقدینگی(میلیون تومان)')
+    #
+    # data=analyzer.get_time_and_value('tsetmc','كاشي و سراميك')
+    # analyzer.plot(data,['حقوقی','حقیقی'],'كاشي و سراميك',u'زمان',u'خروج نقدینگی(میلیون تومان)')
 
     data=analyzer.get_time_and_value('tsetmc','جریان نقدینگی بازار')
     analyzer.plot(data,['حقوقی','حقیقی'],u'جریان نقدینگی بازار',u'زمان',u'(میلیون تومان)خروج نقدینگی')
@@ -203,11 +203,11 @@ def plot():
     data=analyzer.get_time_and_value('tsetmc','جریان نقدینگی بورس و فرایورس')
     analyzer.plot(data,['حقیقی بورس','حقیقی فرابورس','حقوقی بورس','حقوقی فرابورس'],u'جریان نقدینگی بورس و فرایورس',u'زمان',u'بورس و فرایورس خروج نقدینگی(میلیون تومان)')
 
-    data=analyzer.get_time_and_value('tsetmc','جریان نقدینگی بورس')
-    analyzer.plot(data,['حقیقی بورس','حقوقی بورس'],u'جریان نقدینگی بورس',u'زمان',u'بورس خروج نقدینگی(میلیون تومان)')
-
-    data=analyzer.get_time_and_value('tsetmc','جریان نقدینگی فرابورس')
-    analyzer.plot(data,['حقوقی فرابورس','حقیقی فرابورس'],u'جریان نقدینگی فرابورس',u'زمان',u'(میلیون تومان)بورس خروج نقدینگی')
+    # data=analyzer.get_time_and_value('tsetmc','جریان نقدینگی بورس')
+    # analyzer.plot(data,['حقیقی بورس','حقوقی بورس'],u'جریان نقدینگی بورس',u'زمان',u'بورس خروج نقدینگی(میلیون تومان)')
+    #
+    # data=analyzer.get_time_and_value('tsetmc','جریان نقدینگی فرابورس')
+    # analyzer.plot(data,['حقوقی فرابورس','حقیقی فرابورس'],u'جریان نقدینگی فرابورس',u'زمان',u'(میلیون تومان)بورس خروج نقدینگی')
     #
 def intro():
     import ANALYZER
@@ -283,8 +283,8 @@ import NAMADMANAGER
 # # # db.insertdata(dict(tsetmc=dict(bou_tval_B='14980.3',lbuy_tval_bou_B='5779.3',lsell_tval_bou_B='3222',i_buy_tval_bou_B='12661.8',i_sell_tval_bou_B='10663.5',n_buy_tval_bou_B='2318.5',n_sell_tval_bou_B='4316.8',i_findow_bou_M='-2798',n_findow_bou_M='-173441.3',bou_tno_M='1.7',bou_tvol_B='8.1',i_buy_count_bou_K='1059.6',i_sell_count_bou_K='395.1',n_buy_count_bou_K='1.4',n_sell_count_bou_K='1.4',namad_positive_bou_count='110',fbou_tval_B='5112.5',lbuy_tval_fbou_B='2046.4',lsell_tval_fbou_B='646',i_buy_tval_fbou_B='4478.6',i_sell_tval_fbou_B='4202.6',n_buy_tval_fbou_B='634',n_sell_tval_fbou_B='910.1',i_findow_fbou_M='1173.1',n_findow_fbou_M='-94811.1',fbou_tno_M='0.7',fbou_tvol_B='2.4',i_buy_count_fbou_K='334.6',i_sell_count_fbou_K='253.5',n_buy_count_fbou_K='0.5',n_sell_count_fbou_K='0.5',namad_positive_fbou_count='131',date='2020/7/26')))
 # # # db.deletetable(['tsetmc',])
 # # # data=db.getdata(dict(tsetmc=['bou_tval_B','lbuy_tval_bou_B','lsell_tval_bou_B','i_buy_tval_bou_B','i_sell_tval_bou_B','n_buy_tval_bou_B','n_sell_tval_bou_B','i_findow_bou_M','n_findow_bou_M','bou_tno_M','bou_tvol_B','i_buy_count_bou_K','i_sell_count_bou_K','n_buy_count_bou_K','n_sell_count_bou_K','namad_positive_bou_count','fbou_tval_B','lbuy_tval_fbou_B','lsell_tval_fbou_B','i_buy_tval_fbou_B','i_sell_tval_fbou_B','n_buy_tval_fbou_B','n_sell_tval_fbou_B','i_findow_fbou_M','n_findow_fbou_M','fbou_tno_M','fbou_tvol_B','i_buy_count_fbou_K','i_sell_count_fbou_K','n_buy_count_fbou_K','n_sell_count_fbou_K','namad_positive_fbou_count','date']))
-# # # db.addtable(dict(tsetmc=['ID','bou_tval_B','lbuy_tval_bou_B','lsell_tval_bou_B','i_buy_tval_bou_B','i_sell_tval_bou_B','n_buy_tval_bou_B','n_sell_tval_bou_B','i_findow_bou_M','n_findow_bou_M','bou_tno_M','bou_tvol_B','i_buy_count_bou_K','i_sell_count_bou_K','n_buy_count_bou_K','n_sell_count_bou_K','namad_positive_bou_count','fbou_tval_B','lbuy_tval_fbou_B','lsell_tval_fbou_B','i_buy_tval_fbou_B','i_sell_tval_fbou_B','n_buy_tval_fbou_B','n_sell_tval_fbou_B','i_findow_fbou_M','n_findow_fbou_M','fbou_tno_M','fbou_tvol_B','i_buy_count_fbou_K','i_sell_count_fbou_K','n_buy_count_fbou_K','n_sell_count_fbou_K','namad_positive_fbou_count','date']))
-# #
+# db.addtable(dict(tsetmc=['ID','bou_tval_B','lbuy_tval_bou_B','lsell_tval_bou_B','i_buy_tval_bou_B','i_sell_tval_bou_B','n_buy_tval_bou_B','n_sell_tval_bou_B','i_findow_bou_M','n_findow_bou_M','bou_tno_M','bou_tvol_B','i_buy_count_bou_K','i_sell_count_bou_K','n_buy_count_bou_K','n_sell_count_bou_K','namad_positive_bou_count','fbou_tval_B','lbuy_tval_fbou_B','lsell_tval_fbou_B','i_buy_tval_fbou_B','i_sell_tval_fbou_B','n_buy_tval_fbou_B','n_sell_tval_fbou_B','i_findow_fbou_M','n_findow_fbou_M','fbou_tno_M','fbou_tvol_B','i_buy_count_fbou_K','i_sell_count_fbou_K','n_buy_count_fbou_K','n_sell_count_fbou_K','namad_positive_fbou_count','date']))
+#
 # input('that is end ....')
 
 
@@ -363,47 +363,50 @@ import NAMADMANAGER
 
 usser=USERCONTROL.USER({
 'ارزش  بورس':'ON',
-'تعداد معاملات بورس':'ON',
+# 'تعداد معاملات بورس':'OFF',
 'برایند اختلاف سرانه حقیقی بورس':'ON',
-'حجم معاملات بورس':'ON',
-'تعداد خریدار حقیقی بورس':'ON',
+# 'حجم معاملات بورس':'OFF',
+# 'تعداد خریدار حقیقی بورس':'OFF',
 'برایند اختلاف سرانه حقوقی بورس':'ON',
-'تعداد خریدار حقوقی بورس':'ON',
-'تعداد فروشنده حقوقی بورس':'ON',
-'ارزش خرید حقیقی بورس':'ON',
-'تعداد فروشنده حقیقی بورس':'ON',
-'ارزش فروش حقیقی بورس':'ON',
-'ارزش فروش حقوقی بورس':'ON',
-'ارزش صف خرید بورس':'ON',
-'ارزش صف فروش بورس':'ON',
-'تعداد سهام پایانی مثبت بورس':'ON',
+# 'تعداد خریدار حقوقی بورس':'OFF',
+# 'تعداد فروشنده حقوقی بورس':'OFF',
+# 'ارزش خرید حقیقی بورس':'ON',
+# 'تعداد فروشنده حقیقی بورس':'OFF',
+# 'ارزش فروش حقیقی بورس':'ON',
+# 'ارزش فروش حقوقی بورس':'ON',
+# 'ارزش صف خرید بورس':'ON',
+# 'ارزش صف فروش بورس':'ON',
+# 'تعداد سهام پایانی مثبت بورس':'ON',
 'ارزش فرابورس':'ON',
-'تعداد معاملات فرابورس':'ON',
+# 'تعداد معاملات فرابورس':'OFF',
 'برایند اختلاف سرانه حقوقی فرابورس':'ON',
-'حجم معاملات فرابورس':'ON',
-'تعداد خریدار حقیقی فرابورس':'ON',
+# 'حجم معاملات فرابورس':'OFF',
+# 'تعداد خریدار حقیقی فرابورس':'OFF',
 'برایند اختلاف سرانه حقیقی فرابورس':'ON',
-'تعداد خریدار حقوقی فرابورس':'ON',
-'تعداد فروشنده حقوقی فرابورس':'ON',
-'ارزش خرید حقیقی فرابورس':'ON',
-'تعداد فروشنده حقیقی فرابورس':'ON',
-'ارزش فروش حقیقی فرابورس':'ON',
-'ارزش فروش حقوقی فرابورس':'ON',
-'ارزش صف خرید فرابورس':'ON',
-'ارزش صف فروش فرابورس':'ON',
-'تعداد سهام پایانی مثبت فرابورس':'ON',
-'ارزش خرید حقوقی فرابورس':'ON',
-'ارزش خرید حقوقی بورس':'ON',
+# 'تعداد خریدار حقوقی فرابورس':'OFF',
+# 'تعداد فروشنده حقوقی فرابورس':'OFF',
+# 'ارزش خرید حقیقی فرابورس':'ON',
+# 'تعداد فروشنده حقیقی فرابورس':'OFF',
+# 'ارزش فروش حقیقی فرابورس':'ON',
+# 'ارزش فروش حقوقی فرابورس':'ON',
+# 'ارزش صف خرید فرابورس':'ON',
+# 'ارزش صف فروش فرابورس':'ON',
+# 'تعداد سهام پایانی مثبت فرابورس':'OFF',
+# 'ارزش خرید حقوقی فرابورس':'ON',
+# 'ارزش خرید حقوقی بورس':'ON',
 })
 usser.extrac()
 import NAMADMANAGER
 namad_manager=NAMADMANAGER.NAMADMANAGER()
-namad_manager.createnamadtales()
+# namad_manager.deletetables()
+# namad_manager.createnamadtales()
+# namad_managerana.createnamadtales()
+# namad_manager.createnamadtales()
 usser.extract_namad_data()
 stop = timeit.default_timer()
 print('Running Time: ', round((stop - start)/60) , ' Min')
 import os
-os.system('shutdown -s')
+# os.system('shutdown -s')
 
 
 

@@ -109,7 +109,7 @@ class USER:
         script_path = os.getcwd()
         result_dic={}
         for name in data:
-            print('indicator :',name, ' are has added for extracting into namad tables ...')
+            print('indicator :',name, ' has added for extracting into namad tables ...')
             result_dic[script_path+r'\indicators' + name + '.txt'] = data[name]
         return result_dic
     def sum_tuples(self,t1, t2):

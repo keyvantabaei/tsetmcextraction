@@ -31,8 +31,8 @@ class EXTRACTION:
         }
         option=Options()
         option.add_argument('-headless')
-        # self.driver=webdriver.Firefox(firefox_options=option)
-        self.driver=webdriver.Firefox()
+        self.driver=webdriver.Firefox(firefox_options=option)
+        # self.driver=webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.driver.get(self.url)
         self.query=QUERY

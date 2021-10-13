@@ -8069,3 +8069,1454 @@ TimedPromise@chrome://marionette/content/sync.js:230:10
 interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
 webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1633894415189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileZ7q5KC"
+1633894415763	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileZ7q5KC\\search.json.mozlz4", (void 0)))
+1633894419478	Marionette	INFO	Listening on port 54445
+1633894419551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633894423402	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894424726	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894426126	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894427196	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894428194	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894429209	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894436483	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=60783654574662426, line 3: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=60783654574662426, line 1: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=60783654574662426 line 1 > injectedScript, line 1: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=60783654574662426 line 1 > injectedScript, line 3: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=51459202425114449, line 3: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=51459202425114449, line 1: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=51459202425114449 line 1 > injectedScript, line 1: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=51459202425114449 line 1 > injectedScript, line 3: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=40650252484299134, line 3: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=40650252484299134, line 1: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=40650252484299134 line 1 > injectedScript, line 1: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=58741071099161284, line 3: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=58741071099161284, line 1: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=58741071099161284 line 1 > injectedScript, line 1: unreachable code after return statement
+JavaScript warning: http://www.tsetmc.com/loader.aspx?ParTree=151311&i=58741071099161284 line 1 > injectedScript, line 3: unreachable code after return statement
+1633894487683	Marionette	INFO	Stopped listening on port 54445
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633894568651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileYgPZ70"
+1633894569285	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileYgPZ70\\search.json.mozlz4", (void 0)))
+1633894572441	Marionette	INFO	Listening on port 64518
+1633894572884	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633894576176	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894577494	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894578801	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894579936	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894580934	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894581942	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894589214	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894689037	Marionette	INFO	Stopped listening on port 64518
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633894708710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileHutaVU"
+1633894709429	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileHutaVU\\search.json.mozlz4", (void 0)))
+1633894713217	Marionette	INFO	Listening on port 50793
+1633894713753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633894718268	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894720506	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894722318	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894724098	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894725467	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894726796	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894728055	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633894729478	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633895066205	Marionette	INFO	Stopped listening on port 50793
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633931652108	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileVGB86B"
+1633931652716	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileVGB86B\\search.json.mozlz4", (void 0)))
+1633931655632	Marionette	INFO	Listening on port 53048
+1633931655839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633931658938	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633931660016	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633931661095	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633931662115	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633931663103	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633931665112	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633931666220	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/e4fb5038-c29e-4954-98a0-72a882e4841f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/e4fb5038-c29e-4954-98a0-72a882e4841f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/e4fb5038-c29e-4954-98a0-72a882e4841f.json: "
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1633933713032	Marionette	INFO	Stopped listening on port 53048
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+NFO	Listening on port 60691
+1633933686068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633933691458	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933692904	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933694273	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933695638	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933696853	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933697961	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933699300	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933702457	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39008E,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xAB0013,name=PWindowGlobal::Msg_RawMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390147,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x23005A,name=PBrowser::Msg_UpdateEffects) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39008E,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x230080,name=PBrowser::Msg_StopIMEStateManagement) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2300A1,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390021,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390021,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390021,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39008E,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2300A1,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39008E,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2300A1,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39008E,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2300A1,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39008E,name=PContent::Msg_FlushTabState) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2300A1,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390148,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2072: TypeError: subject.QueryInterface is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2072: TypeError: subject.QueryInterface is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2072: TypeError: subject.QueryInterface is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2072: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39002C,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000D,name=PGPU::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+1633933827495	Marionette	INFO	Stopped listening on port 60691
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520014,name=PGPU::Msg_RemoveLayerTreeIdMapping) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370004,name=PCompositorManager::Msg_RemoveSharedSurface) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xA60026,name=PWebRenderBridge::Msg_Shutdown) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x360014,name=PCompositorBridge::Msg_WillClose) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Parent 7784, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 7784, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 7784, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 7784, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x520034,name=PGPU::Msg_UpdateMediaCodecsSupported) Channel error: cannot send/recv
+
+1633933975998	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileuqcMQv"
+1633933976628	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileuqcMQv\\search.json.mozlz4", (void 0)))
+1633933979839	Marionette	INFO	Listening on port 60857
+1633933980225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633933984241	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933985314	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933986352	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633933996743	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:65
+unregisterCommandsActor@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:390:15
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2141:3
+onClosed@chrome://remote/content/marionette/server.js:209:17
+close@chrome://remote/content/marionette/transport.js:221:18
+onInputStreamReady@chrome://remote/content/marionette/transport.js:375:14
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteCommands'
+1633934024266	Marionette	INFO	Stopped listening on port 60857
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1633934050942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofilexrkmLY"
+*** You are running in headless mode.
+1633934051473	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofilexrkmLY\\search.json.mozlz4", (void 0)))
+1633934053333	Marionette	INFO	Listening on port 60929
+1633934053654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633934057968	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633934059103	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633934060220	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/e4fb5038-c29e-4954-98a0-72a882e4841f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/e4fb5038-c29e-4954-98a0-72a882e4841f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/e4fb5038-c29e-4954-98a0-72a882e4841f.json: "
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1633935596024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofilexxVCG6"
+*** You are running in headless mode.
+1633935596528	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofilexxVCG6\\search.json.mozlz4", (void 0)))
+1633935598103	Marionette	INFO	Listening on port 61295
+1633935598133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633935604230	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633935605441	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633935606511	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633935607524	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633935610565	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633936897734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofile8haFrU"
+*** You are running in headless mode.
+1633936898927	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofile8haFrU\\search.json.mozlz4", (void 0)))
+1633936900827	Marionette	INFO	Listening on port 52818
+1633936900995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633936904489	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633936905590	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633936906602	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.error: services.settings: 
+  security-state/intermediates Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+16	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileyO0qyr\\search.json.mozlz4", (void 0)))
+1633937339275	Marionette	INFO	Listening on port 60491
+Exiting due to channel error.
+1633937618122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileSrz5Dl"
+*** You are running in headless mode.
+1633937618653	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileSrz5Dl\\search.json.mozlz4", (void 0)))
+1633937620199	Marionette	INFO	Listening on port 60569
+1633937620315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633937623442	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633937624537	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633937625635	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633937626636	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633937636929	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633938710347	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileWLeH9V"
+*** You are running in headless mode.
+1633938710886	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileWLeH9V\\search.json.mozlz4", (void 0)))
+1633938712547	Marionette	INFO	Listening on port 51556
+1633938713033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633938716451	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633938717807	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633938719109	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633938720212	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633938721286	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633938722325	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633938724492	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633938731388	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939313867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofilevRBQDo"
+*** You are running in headless mode.
+1633939314425	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofilevRBQDo\\search.json.mozlz4", (void 0)))
+1633939316227	Marionette	INFO	Listening on port 59047
+1633939316582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633939321424	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939322677	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939323736	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939324802	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939326868	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939328997	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/170a56ca-c1bf-4181-9b30-693002f7e245.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/06e44aaa-324b-47ac-b458-72e1bccdf86b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/30c71fa2-8842-419c-89db-addd30268f5b.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/fa731eb2-b049-44bc-a12d-f42f7cea991d.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/2a0dbd55-2eae-44ea-b787-5379594979ff.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/bd6fe48d-f356-4af1-bb7e-4de42b1e6272.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/c2485f5d-8bb1-4a45-a752-efffe9cd55c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/281d6a98-5f8e-4bc4-8bae-72e7e16933ca.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/e8645388-afc5-48e3-8f3f-80f82a5353dc.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/47d2bcee-b6c1-464e-a443-e3527d029b0f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/18f03fe5-a60f-48c5-8cb8-13da750ca395.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/cdd3cdfb-1988-482a-850f-ec02aff07f45.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/a3944b1a-5464-406f-a97e-691702019575.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/61c97d21-6576-4624-aa8b-37839293aebd.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/1db0b78b-42f2-44fd-b78c-43f5fc760fa1.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/393f4033-c815-48d4-bf23-1eb42b4d30db.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/76666027-45db-4baa-8197-6e0f886966a8.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/24538f21-45ca-4dab-addb-65f655a688e2.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/ad749af2-93d7-4bf3-982f-a558175fd806.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/f477331d-33dc-4dfe-be46-88d5223fb439.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/8267a2cc-0984-4410-87db-c02530703a98.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/3fcbb458-7362-47bb-a426-6b542eb2f014.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/5d011771-de98-48f3-8565-7fc1ef6439c3.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/145b9461-d6cc-4341-8d96-ec3bacace059.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-models/0685a1b5-34eb-4c13-8c90-bc82735e527f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/e4fb5038-c29e-4954-98a0-72a882e4841f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/e4fb5038-c29e-4954-98a0-72a882e4841f.json: "
+console.error: "Failed to fetch undefinedmain-workspace/personality-provider-recipe/e4fb5038-c29e-4954-98a0-72a882e4841f.json: "
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 73: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+Exiting due to channel error.
+	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofilerT26cj"
+*** You are running in headless mode.
+1633939982780	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofilerT26cj\\search.json.mozlz4", (void 0)))
+1633939984572	Marionette	INFO	Listening on port 50939
+1633939984940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1633939988531	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939989897	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939991272	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939992484	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939993784	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939994910	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939995899	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939997309	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633939999957	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633940004025	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+Exiting due to channel error.
+Exiting due to channel error.
+1634057648085	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileD25YIY"
+*** You are running in headless mode.
+1634057648759	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Keyvan\\AppData\\Local\\Temp\\rust_mozprofileD25YIY\\search.json.mozlz4", (void 0)))
+1634057650767	Marionette	INFO	Listening on port 51884
+1634057650862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.tsetmc.com/Loader.aspx?ParTree=15131F, line 3: unreachable code after return statement
+1634057655952	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1634057658065	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+out of memory: 0x0000000000200000 bytes requested
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1634057906685	Marionette	INFO	Stopped listening on port 51884
+[Parent 18212, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]

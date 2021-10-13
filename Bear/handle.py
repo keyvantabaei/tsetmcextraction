@@ -62,7 +62,7 @@ def Bear(p):
         sys.stdout.flush()
     print('  Completed .\n')
     # last_icount_data = {k: 0 for k in olddatalist[cdata-1]}
-    min=100
+    min=60
     detected_namad={}
     olddata={}
     maxdata={}
@@ -117,9 +117,9 @@ def Bear(p):
         ex_time=round(stop - start,2)
         run_time+=ex_time/60
         if ex_time<min:min=ex_time
-        sys.stdout.write("\rExtracting Time: %f" % ex_time + " Sec" +  '        Namad NO.: %f' % int(len(data.keys())) + '        Runining Time: '+ str(round(run_time,2)) +' Min' )
+        sys.stdout.write("\rExtracting Time: %f" % ex_time + " Sec" +  '        Namad NO.: %f' % int(len(data.keys())) + '        Runining Time: '+ str(round(run_time,3)) +' Min' )
         sys.stdout.flush()
-        if(ex_time>9.5*min):
+        if(run_time>5):
             import os,sys
             print('\n\n >> Application restarted .\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             os.system("python handle.py")
@@ -128,7 +128,7 @@ def Bear(p):
             if(detected_namad[key]>0):
                 detected_namad[key]=detected_namad[key]-1
         olddata=data
-Bear(0.7)
+Bear(0.65)
 
 
 
