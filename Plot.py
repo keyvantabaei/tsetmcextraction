@@ -39,8 +39,8 @@ analyzer.plot(data, ['بورس', 'فرابورس', 'بازار'], 'ارزش با
 # analyzer.plot(data,['حقوقی','حقیقی'],'کترام',u'زمان',u'(میلیون تومان)اختلاف سرانه')
 # data=analyzer.get_time_and_value('tsetmc',namad_manager.convert_namad_to_id('وتعاون'))
 # analyzer.plot(data,['حقوقی','حقیقی'],'وتعاون',u'زمان',u'(میلیون تومان)اختلاف سرانه')
-data = analyzer.get_time_and_value('tsetmc', '58931793851445922')
-analyzer.plot(data, ['حقوقی', 'حقیقی'], 'ومعادن', u'زمان', u'(میلیون تومان)اختلاف سرانه')
+data = analyzer.get_time_and_value('tsetmc', '26824673819862694')
+analyzer.plot(data, ['حقوقی', 'حقیقی'], 'خبهمن', u'زمان', u'(میلیون تومان)اختلاف سرانه')
 # #
 
 # data=analyzer.get_time_and_value('tsetmc','مواد و محصولات دارويي')
