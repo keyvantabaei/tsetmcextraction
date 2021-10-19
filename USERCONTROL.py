@@ -97,7 +97,7 @@ class USER:
         self.fbou_options_dic={}
         self.indicators_dic=self.make_indicator_path_and_column_dic({
             r'\macdhisto-rsi-pc': ['macd_minus_signal', 'rsi14', 'pc'],
-            r'\isaraneh':['i_saraneh_M',],r'\nsaraneh':['n_saraneh_M',],
+            r'\isaraneh':['buy_sell_power_ratio',],r'\nsaraneh':['i_money_fluence_M',],
 
                                                                      r'\momentum14-bolingerbands':['momentum14','bollinger_bands'],
                                                                      })
@@ -265,12 +265,12 @@ class USER:
         elif 'i_subtrac_ave_bou_M' in list_key:
             check_key = True
             findow_index = list_key.index('i_subtrac_ave_bou_M')
-        elif 'n_saraneh_M' in list_key:
+        elif 'i_money_fluence_M' in list_key:
             check_key = True
-            findow_index = list_key.index('n_saraneh_M')
-        elif 'i_saraneh_M' in list_key:
+            findow_index = list_key.index('i_money_fluence_M')
+        elif 'buy_sell_power_ratio' in list_key:
             check_key = True
-            findow_index = list_key.index('i_saraneh_M')
+            findow_index = list_key.index('buy_sell_power_ratio')
         else:
             check_key = False
         if (check_key == True):
@@ -418,10 +418,10 @@ class USER:
             ext_motor.newstringfilter(query,self.check_findow_for_ext(columns))
             data =ext_motor.extractalldata()
             columns=list(self.indicator_query_dic[query])+['date',]
-            if 'n_saraneh_M' in columns:
+            if 'i_money_fluence_M' in columns:
                 result = caculator.sum_for_namad(data, columns)
                 data.update(result)
-            elif 'i_saraneh_M' in columns:
+            elif 'buy_sell_power_ratio' in columns:
                 result = caculator.sum_for_namad(data, columns)
                 data.update(result)
             self.add_to_data_list(data)

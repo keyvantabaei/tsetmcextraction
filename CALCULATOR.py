@@ -176,7 +176,7 @@ class CAL:
             sum = 0
             for namad in data:
                 sum=0
-                if (columnname == 'n_saraneh_M'):
+                if (columnname == 'i_money_fluence_M'):
                     if (data[namad][columnname + '_part1'] == 'NaN'):
                         pass
                     else:
@@ -186,7 +186,7 @@ class CAL:
                     else:
                         sum = sum + Decimal(data[namad][columnname + '_part2'])
                     resultlist[namad] = {columnname: str(round(sum / 10000000, 1))}
-                elif (columnname == 'i_saraneh_M'):
+                elif (columnname == 'buy_sell_power_ratio'):
                     if (data[namad][columnname + '_part1'] == 'NaN'):
                         pass
                     else:
@@ -197,8 +197,11 @@ class CAL:
                         # if(namad=='tb_11773403764702778'):
                         #     print(Decimal(data[namad][columnname + '_part2']),'   ',Decimal(data[namad][columnname + '_part1']),'   ',Decimal(data[namad][columnname + '_part1'])+Decimal(data[namad][columnname + '_part2']))
                         #     input('rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr')
-                        sum = sum + Decimal(data[namad][columnname + '_part2'])
-                    resultlist[namad] = {columnname: str(round(sum / 10000000, 1))}
+                        # sum = sum + Decimal(data[namad][columnname + '_part2'])
+                        sum = sum/Decimal(data[namad][columnname + '_part2'])
+                    # resultlist[namad] = {columnname: str(round(sum / 10000000, 1))}
+                    resultlist[namad] = {columnname: str(round(sum / 1, 2))}
+
                 else:pass
                 # result_list.append([namad,round(sum/10000000,1)])
                 sum=0

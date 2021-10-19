@@ -1,0 +1,9 @@
+true==function()
+{
+         (cfield0)=( (ct).Buy_N_Volume/(ct).Buy_CountN )*(pc);
+         (cfield1)=-( (ct).Sell_N_Volume/(ct).Sell_CountN )*(pc);
+         if(1==1){return true;}
+         else{return false;}
+
+
+}()

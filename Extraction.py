@@ -43,7 +43,7 @@ namad_manager=NAMADMANAGER.NAMADMANAGER()
 # namad_manager.createnamadtales()
 # namad_managerana.createnamadtales()
 # namad_manager.createnamadtales()
-usser.extract_namad_data()
+#usser.extract_namad_data()
 stop = timeit.default_timer()
 print('Running Time: ', round((stop - start)/60) , ' Min')
 import os

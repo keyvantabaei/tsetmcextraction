@@ -98,7 +98,7 @@ class NAMADMANAGER:
 
 ]
         self.namad_ids_dic = self.read_namad_ids()
-        self.columns_list=['ID','rsi14','macd_minus_signal','momentum14','bollinger_bands','pc','i_saraneh_M','n_saraneh_M','date']
+        self.columns_list=['ID','rsi14','macd_minus_signal','momentum14','bollinger_bands','pc','buy_sell_power_ratio','i_money_fluence_M','date']
         print('columns ',self.columns_list, ' has set ...')
     def createnamadtales(self):
         import DB

@@ -106,8 +106,8 @@ class ANALYZER:
             'momentum14',
             'bollinger_bands',
             'pc',
-            'i_saraneh_M',
-            'n_saraneh_M',
+            'buy_sell_power_ratio',
+            'i_money_fluence_M',
             'bou_tval_B',
             'lbuy_tval_bou_B',
             'lsell_tval_bou_B',
@@ -241,8 +241,14 @@ class ANALYZER:
         result_list=[]
         for str in list1:
             result_list.append(str.replace("tb_", ""))
+        file1 = open("NamadRecommended.txt", "w", encoding="utf-8")
         for id in result_list:
-            print(self.convert_id_to_name(id),'             ',id)
+            file1.write(self.convert_id_to_name(id) + "\n")
+            # print(self.convert_id_to_name(id),'             ',id)
+        file1.close()
+        import os
+        script_path = os.getcwd()
+        os.startfile(script_path + r'\NamadRecommended.txt')
     def convert_id_to_name(self, id):
         result_name = 0
         for nn in self.namad_ids_dic:
@@ -274,7 +280,7 @@ class ANALYZER:
         width=0.1
         alien=-2*width
         colors=['r','b','g','y','cyan','black']
-        # print(data)
+        print(data)
 
         for i in range(0,len(data[1]),1):
             plt.bar(date1+alien, data[1][i], width=width, color=colors[i], label=self.to_persian(legend_names[i]))
@@ -422,8 +428,8 @@ class ANALYZER:
                 for id in id_list:
                     data = self.get_data_one_table('tb_' + id)
                     tb_name = 'tb_' + id
-                    value_lists_i.append(self.to_decimal(data['tb_' + id]['i_saraneh_M']))
-                    value_lists_n.append(self.to_decimal(data['tb_' + id]['n_saraneh_M']))
+                    value_lists_i.append(self.to_decimal(data['tb_' + id]['buy_sell_power_ratio']))
+                    value_lists_n.append(self.to_decimal(data['tb_' + id]['i_money_fluence_M']))
                 date = self.str_to_date(data[tb_name]['date'])
                 value_list_i = []
                 value_list_n = []
@@ -451,7 +457,7 @@ class ANALYZER:
             data=self.get_data_one_table('tb_'+column)
             date = self.str_to_date(data['tb_'+column]['date'])
             print('namad: ',column, ' bar chart in loading ...')
-            values=[self.to_decimal(data['tb_'+column]['n_saraneh_M']),self.to_decimal(data['tb_'+column]['i_saraneh_M'])]
+            values=[self.to_decimal(data['tb_'+column]['i_money_fluence_M']),self.to_decimal(data['tb_'+column]['buy_sell_power_ratio'])]
         elif (column == 'میانگین حجم معامله شده به ازای هر کد بورسی'):
             print(column,' bar chart is loading ...')
             data=self.get_data_one_table(table)
@@ -626,12 +632,13 @@ class ANALYZER:
             data.clear()
             data = self.get_data_one_table('tb_' + id)
             tb_name = 'tb_' + id
-            value_lists_i=self.to_decimal(data['tb_' + id]['i_saraneh_M'])
-            value_lists_n=self.to_decimal(data['tb_' + id]['n_saraneh_M'])
+            value_lists_i=self.to_decimal(data['tb_' + id]['buy_sell_power_ratio'])
+            value_lists_n=self.to_decimal(data['tb_' + id]['i_money_fluence_M'])
             date = self.str_to_date(data[tb_name]['date'])
             self.plot((date,[value_lists_i,value_lists_n]), ['حقیقی', 'حقوقی'], namad.convert_id_to_name(id), u'زمان',u'سرانه(میلیون تومان)')
         return result_list
-
+    def ReturnDB(self):
+        return self.db
 
 
 
