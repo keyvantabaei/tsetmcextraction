@@ -251,8 +251,6 @@ import NAMADMANAGER
 # input('this is the beginning of a huge victory ...')
 
 
-import DB
-db=DB.DB('127.0.0.1','root', '', 'tsetmc_db')
 # print(db.gettables())
 # print(db.getcolumns(['tsetmc']))
 # db.deletedata('tsetmc','s')
@@ -283,6 +281,9 @@ db=DB.DB('127.0.0.1','root', '', 'tsetmc_db')
 # # db.insertdata(dict(tsetmc=dict(bou_tval_B='14980.3',lbuy_tval_bou_B='5779.3',lsell_tval_bou_B='3222',i_buy_tval_bou_B='12661.8',i_sell_tval_bou_B='10663.5',n_buy_tval_bou_B='2318.5',n_sell_tval_bou_B='4316.8',i_findow_bou_M='-2798',n_findow_bou_M='-173441.3',bou_tno_M='1.7',bou_tvol_B='8.1',i_buy_count_bou_K='1059.6',i_sell_count_bou_K='395.1',n_buy_count_bou_K='1.4',n_sell_count_bou_K='1.4',namad_positive_bou_count='110',fbou_tval_B='5112.5',lbuy_tval_fbou_B='2046.4',lsell_tval_fbou_B='646',i_buy_tval_fbou_B='4478.6',i_sell_tval_fbou_B='4202.6',n_buy_tval_fbou_B='634',n_sell_tval_fbou_B='910.1',i_findow_fbou_M='1173.1',n_findow_fbou_M='-94811.1',fbou_tno_M='0.7',fbou_tvol_B='2.4',i_buy_count_fbou_K='334.6',i_sell_count_fbou_K='253.5',n_buy_count_fbou_K='0.5',n_sell_count_fbou_K='0.5',namad_positive_fbou_count='131',date='2020/7/26')))
 # # # db.deletetable(['tsetmc',])
 # # # data=db.getdata(dict(tsetmc=['bou_tval_B','lbuy_tval_bou_B','lsell_tval_bou_B','i_buy_tval_bou_B','i_sell_tval_bou_B','n_buy_tval_bou_B','n_sell_tval_bou_B','i_findow_bou_M','n_findow_bou_M','bou_tno_M','bou_tvol_B','i_buy_count_bou_K','i_sell_count_bou_K','n_buy_count_bou_K','n_sell_count_bou_K','namad_positive_bou_count','fbou_tval_B','lbuy_tval_fbou_B','lsell_tval_fbou_B','i_buy_tval_fbou_B','i_sell_tval_fbou_B','n_buy_tval_fbou_B','n_sell_tval_fbou_B','i_findow_fbou_M','n_findow_fbou_M','fbou_tno_M','fbou_tvol_B','i_buy_count_fbou_K','i_sell_count_fbou_K','n_buy_count_fbou_K','n_sell_count_fbou_K','namad_positive_fbou_count','date']))
+
+import DB
+db=DB.DB('127.0.0.1','root', '123456', 'tsetmc_db')
 db.addtable(dict(tsetmc=['ID','bou_tval_B','lbuy_tval_bou_B','lsell_tval_bou_B','i_buy_tval_bou_B','i_sell_tval_bou_B','n_buy_tval_bou_B','n_sell_tval_bou_B','i_findow_bou_M','n_findow_bou_M','bou_tno_M','bou_tvol_B','i_buy_count_bou_K','i_sell_count_bou_K','n_buy_count_bou_K','n_sell_count_bou_K','namad_positive_bou_count','fbou_tval_B','lbuy_tval_fbou_B','lsell_tval_fbou_B','i_buy_tval_fbou_B','i_sell_tval_fbou_B','n_buy_tval_fbou_B','n_sell_tval_fbou_B','i_findow_fbou_M','n_findow_fbou_M','fbou_tno_M','fbou_tvol_B','i_buy_count_fbou_K','i_sell_count_fbou_K','n_buy_count_fbou_K','n_sell_count_fbou_K','namad_positive_fbou_count','date']))
 #
 # input('that is end ....')

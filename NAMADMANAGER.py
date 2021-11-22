@@ -98,11 +98,11 @@ class NAMADMANAGER:
 
 ]
         self.namad_ids_dic = self.read_namad_ids()
-        self.columns_list=['ID','rsi14','macd_minus_signal','momentum14','bollinger_bands','pc','buy_sell_power_ratio','i_money_fluence_M','date']
+        self.columns_list=['ID','rsi14','macd_minus_signal','momentum14','bollinger_bands','pc','buy_sell_power_ratio','i_money_fluence_B','date']
         print('columns ',self.columns_list, ' has set ...')
     def createnamadtales(self):
         import DB
-        db=DB.DB('127.0.0.1','root', '', 'tsetmc_db')
+        db=DB.DB('127.0.0.1','root', '123456', 'tsetmc_db')
         self.namad_ids_dic=self.read_namad_ids_for_inserting()
         for namad_name in self.namad_ids_dic:
             table_name='tb_'+self.namad_ids_dic[namad_name]
@@ -235,9 +235,9 @@ class NAMADMANAGER:
                         res += self.fa_en_dic[en][0]
         print(res)
     def read_namad_ids_for_inserting(self):
-        import EXT
-        ext_motor= EXT.EXTRACTION('http://www.tsetmc.com/Loader.aspx?ParTree=15131F','',[])
-        ext_motor.saveidstoxml(0,0)
+        # import EXT
+        # ext_motor= EXT.EXTRACTION('http://www.tsetmc.com/Loader.aspx?ParTree=15131F','',[])
+        # ext_motor.saveidstoxml(0,0)
         result_dic={}
         import xml.etree.ElementTree as ET
         tree = ET.parse('namd_name_ids.xml')

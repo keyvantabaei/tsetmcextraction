@@ -32,8 +32,8 @@ class EXTRACTION:
 
         option=Options()
         option.add_argument('-headless')
-        self.driver=webdriver.Firefox(firefox_options=option)
-        # self.driver=webdriver.Firefox()
+        # self.driver=webdriver.Firefox(firefox_options=option)
+        self.driver=webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.driver.get(self.url)
         self.query=QUERY
@@ -715,6 +715,7 @@ class EXTRACTION:
                                 data[id].update(
                                     {self.columns[0]: cfield0, self.columns[1]: cfield1, 'date': self.gettime()})
                         elif (count == 1):
+                            # print('heeeeereee')
                             id = 'tb_' + elem.get_attribute('id')
                             self.driver.implicitly_wait(30)
                             cfield0 = elem.find_element_by_css_selector('div[class="t0c ch{_cfield0}"]').text

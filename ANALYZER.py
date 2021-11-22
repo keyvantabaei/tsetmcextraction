@@ -27,7 +27,7 @@ class ANALYZER:
             'Z': ['ز', 'ض', 'ظ', 'ذ'],
         }
         import DB
-        db = DB.DB('127.0.0.1', 'root', '', 'tsetmc_db')
+        db = DB.DB('127.0.0.1', 'root', '123456', 'tsetmc_db')
         self.namad_ids_dic=self.read_namad_ids()
         self.db=db
         self.sanat_name=[
@@ -107,7 +107,7 @@ class ANALYZER:
             'bollinger_bands',
             'pc',
             'buy_sell_power_ratio',
-            'i_money_fluence_M',
+            'i_money_fluence_B',
             'bou_tval_B',
             'lbuy_tval_bou_B',
             'lsell_tval_bou_B',
@@ -212,7 +212,7 @@ class ANALYZER:
                         for rsi_value in self.data[table][column]:
                             try:
                                 rsi=Decimal(rsi_value)
-                                if ( rsi > 44 and rsi < 56):
+                                if ( rsi > 25 and rsi < 35):
                                     result_list.append(table)
                             except:pass
             else:pass
@@ -246,9 +246,9 @@ class ANALYZER:
             file1.write(self.convert_id_to_name(id) + "\n")
             # print(self.convert_id_to_name(id),'             ',id)
         file1.close()
-        import os
-        script_path = os.getcwd()
-        os.startfile(script_path + r'\NamadRecommended.txt')
+        # import os
+        # script_path = os.getcwd()
+        # os.startfile(script_path + r'\NamadRecommended.txt')
     def convert_id_to_name(self, id):
         result_name = 0
         for nn in self.namad_ids_dic:
@@ -429,7 +429,7 @@ class ANALYZER:
                     data = self.get_data_one_table('tb_' + id)
                     tb_name = 'tb_' + id
                     value_lists_i.append(self.to_decimal(data['tb_' + id]['buy_sell_power_ratio']))
-                    value_lists_n.append(self.to_decimal(data['tb_' + id]['i_money_fluence_M']))
+                    value_lists_n.append(self.to_decimal(data['tb_' + id]['i_money_fluence_B']))
                 date = self.str_to_date(data[tb_name]['date'])
                 value_list_i = []
                 value_list_n = []
@@ -457,7 +457,7 @@ class ANALYZER:
             data=self.get_data_one_table('tb_'+column)
             date = self.str_to_date(data['tb_'+column]['date'])
             print('namad: ',column, ' bar chart in loading ...')
-            values=[self.to_decimal(data['tb_'+column]['i_money_fluence_M']),self.to_decimal(data['tb_'+column]['buy_sell_power_ratio'])]
+            values=[self.to_decimal(data['tb_'+column]['i_money_fluence_B']),self.to_decimal(data['tb_'+column]['buy_sell_power_ratio'])]
         elif (column == 'میانگین حجم معامله شده به ازای هر کد بورسی'):
             print(column,' bar chart is loading ...')
             data=self.get_data_one_table(table)
@@ -633,7 +633,7 @@ class ANALYZER:
             data = self.get_data_one_table('tb_' + id)
             tb_name = 'tb_' + id
             value_lists_i=self.to_decimal(data['tb_' + id]['buy_sell_power_ratio'])
-            value_lists_n=self.to_decimal(data['tb_' + id]['i_money_fluence_M'])
+            value_lists_n=self.to_decimal(data['tb_' + id]['i_money_fluence_B'])
             date = self.str_to_date(data[tb_name]['date'])
             self.plot((date,[value_lists_i,value_lists_n]), ['حقیقی', 'حقوقی'], namad.convert_id_to_name(id), u'زمان',u'سرانه(میلیون تومان)')
         return result_list

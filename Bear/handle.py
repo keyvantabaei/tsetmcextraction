@@ -40,9 +40,12 @@ def Bear(p):
     from decimal import Decimal
     import EXT
     print('\nConnecting to TSETMC ...')
+    # ext_motor = EXT.EXTRACTION('http://www.tsetmc.com/Loader.aspx?ParTree=15131F',
+    #                          '(cfield1)=(ct).Buy_CountI;(cfield0)=(qo1)*(pmin)/10000000000;(cfield0)>2&&(cfield0)<30&&(po1)==(tmin) && (qo1)!=0',
+    #                            ['lsell_tval'])
     ext_motor = EXT.EXTRACTION('http://www.tsetmc.com/Loader.aspx?ParTree=15131F',
-                             '(cfield1)=(ct).Buy_CountI;(cfield0)=(qo1)*(pmin)/10000000000;(cfield0)>2&&(cfield0)<30&&(po1)==(tmin) && (qo1)!=0',
-                               ['lsell_tval'])
+                           '(cfield1)=(ct).Buy_CountI;(cfield0)=(tval);',
+                           ['lsell_tval'])
     print('Settings are being done ...')
     ext_motor.dosettingforextraction()
     namad_id_dic = {}

@@ -96,10 +96,10 @@ class USER:
         self.bou_options_dic={}
         self.fbou_options_dic={}
         self.indicators_dic=self.make_indicator_path_and_column_dic({
-            r'\macdhisto-rsi-pc': ['macd_minus_signal', 'rsi14', 'pc'],
-            r'\isaraneh':['buy_sell_power_ratio',],r'\nsaraneh':['i_money_fluence_M',],
+            '/macdhisto-rsi-pc': ['macd_minus_signal', 'rsi14', 'pc'],
+            '/isaraneh':['buy_sell_power_ratio',],'/nsaraneh':['i_money_fluence_B',],
 
-                                                                     r'\momentum14-bolingerbands':['momentum14','bollinger_bands'],
+                                                                     '/momentum14-bolingerbands':['momentum14','bollinger_bands'],
                                                                      })
         self.indicator_query_dic={}
         self.namad_data_list=[]
@@ -110,7 +110,7 @@ class USER:
         result_dic={}
         for name in data:
             print('indicator :',name, ' has added for extracting into namad tables ...')
-            result_dic[script_path+r'\indicators' + name + '.txt'] = data[name]
+            result_dic[script_path+'/indicators' + name + '.txt'] = data[name]
         return result_dic
     def sum_tuples(self,t1, t2):
         l1 = list(t1)
@@ -265,9 +265,9 @@ class USER:
         elif 'i_subtrac_ave_bou_M' in list_key:
             check_key = True
             findow_index = list_key.index('i_subtrac_ave_bou_M')
-        elif 'i_money_fluence_M' in list_key:
+        elif 'i_money_fluence_B' in list_key:
             check_key = True
-            findow_index = list_key.index('i_money_fluence_M')
+            findow_index = list_key.index('i_money_fluence_B')
         elif 'buy_sell_power_ratio' in list_key:
             check_key = True
             findow_index = list_key.index('buy_sell_power_ratio')
@@ -313,6 +313,7 @@ class USER:
         str_query=''
         for indicator_file in self.indicators_dic:
             str_query=''
+            print(indicator_file)
             indicator=open(indicator_file,"r")
             for line in indicator:
                 str_query+=line
@@ -358,7 +359,7 @@ class USER:
         import EXT
         import CALCULATOR
         import DB
-        db=DB.DB('127.0.0.1', 'root', '', 'tsetmc_db')
+        db=DB.DB('127.0.0.1', 'root', '123456', 'tsetmc_db')
         caculator=CALCULATOR.CAL()
         ext_motor= EXT.EXTRACTION('http://www.tsetmc.com/Loader.aspx?ParTree=15131F','',[])
         print('Connected to TSETMC ...')
@@ -401,7 +402,7 @@ class USER:
             list_key=list(key)+['date',]
             data=caculator.sum(data,list_key)
             db.insertdata(dict(tsetmc=data))
-        self.save_to_exel()
+        # self.save_to_exel()
     def extract_namad_data(self):
         self.read_filter_query_from_file()
         import EXT
@@ -418,7 +419,7 @@ class USER:
             ext_motor.newstringfilter(query,self.check_findow_for_ext(columns))
             data =ext_motor.extractalldata()
             columns=list(self.indicator_query_dic[query])+['date',]
-            if 'i_money_fluence_M' in columns:
+            if 'i_money_fluence_B' in columns:
                 result = caculator.sum_for_namad(data, columns)
                 data.update(result)
             elif 'buy_sell_power_ratio' in columns:

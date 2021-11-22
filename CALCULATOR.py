@@ -176,7 +176,7 @@ class CAL:
             sum = 0
             for namad in data:
                 sum=0
-                if (columnname == 'i_money_fluence_M'):
+                if (columnname == 'i_money_fluence_B'):
                     if (data[namad][columnname + '_part1'] == 'NaN'):
                         pass
                     else:
@@ -185,7 +185,7 @@ class CAL:
                         pass
                     else:
                         sum = sum + Decimal(data[namad][columnname + '_part2'])
-                    resultlist[namad] = {columnname: str(round(sum / 10000000, 1))}
+                    resultlist[namad] = {columnname: str(round(sum / 10000000000, 1))}
                 elif (columnname == 'buy_sell_power_ratio'):
                     if (data[namad][columnname + '_part1'] == 'NaN'):
                         pass
@@ -198,7 +198,8 @@ class CAL:
                         #     print(Decimal(data[namad][columnname + '_part2']),'   ',Decimal(data[namad][columnname + '_part1']),'   ',Decimal(data[namad][columnname + '_part1'])+Decimal(data[namad][columnname + '_part2']))
                         #     input('rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr')
                         # sum = sum + Decimal(data[namad][columnname + '_part2'])
-                        sum = sum/Decimal(data[namad][columnname + '_part2'])
+                        try:sum = sum/Decimal(data[namad][columnname + '_part2'])
+                        except:sum=0;
                     # resultlist[namad] = {columnname: str(round(sum / 10000000, 1))}
                     resultlist[namad] = {columnname: str(round(sum / 1, 2))}
 
@@ -234,7 +235,7 @@ class CAL:
     def insert_data_into_namad_tables(self,data):
         #dadeh haro bebin : rahat mitoni zakhireh koni
         import DB
-        db=DB.DB('127.0.0.1','root', '', 'tsetmc_db')
+        db=DB.DB('127.0.0.1','root', '123456', 'tsetmc_db')
         for namad in data:
             table_name=namad
             values=data[namad]
